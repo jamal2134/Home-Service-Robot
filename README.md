@@ -83,13 +83,16 @@ Run the SLAM test script:
 cd ~/catkin_ws/src/Robot_home_service/scripts
 ./test_slam.sh
 ```
+
+
+
 After completing the mapping process, save the generated map in the map directory:
 
 ```bash
 rosrun map_server map_saver -f ../map/map
 ```
 
-
+![Map](images/map2.png)
 ## Localization and Navigation Testing
 Run the navigation test to verify localization and path planning:
 
@@ -104,6 +107,8 @@ Execute the main script to run the complete home service scenario (pickup and dr
 cd ~/catkin_ws/src/Robot_home_service/scripts
 ./home_service.sh
 ```
+
+
 ## ⚠️ Performance Note
 
 During testing, it was observed that when the pickup and drop-off locations are placed far apart, the Ubuntu system may become slow or unresponsive due to increased computational load.
