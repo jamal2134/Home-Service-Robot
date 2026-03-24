@@ -2,7 +2,7 @@
 # Home Service Robot
 
 In this project, you will use everything you learned in the Nanodegree Program to build a Home Service Robot in ROS
-
+![world](images/world.png)
 ##  System Requirements
 
 - Ubuntu 20.04  
