@@ -108,8 +108,8 @@ cd ~/catkin_ws/src/Robot_home_service/scripts
 ./home_service.sh
 ```
 ![img4](images/img4.png)
-![img2](images/img2.png)
 ![img3](images/img3.png)
+![img2](images/img2.png)
 ![img1](images/img1.png)
 
 ## ⚠️ Performance Note
