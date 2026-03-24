@@ -104,7 +104,11 @@ Execute the main script to run the complete home service scenario (pickup and dr
 cd ~/catkin_ws/src/Robot_home_service/scripts
 ./home_service.sh
 ```
+## ⚠️ Performance Note
 
+During testing, it was observed that when the pickup and drop-off locations are placed far apart, the Ubuntu system may become slow or unresponsive due to increased computational load.
+
+To ensure smooth performance and avoid system freezing, the pickup and drop-off locations are defined close to each other.
 
 
 
